@@ -40,7 +40,6 @@ application_src: https://github.com/abikouo/webapp_pyflask_demo.git
 playbook_number_forks: 15
 
 # Sonstiges
----
 resource_group_name: azure-demo
 region: eastus
 vnet_cidr: 10.0.0.0/16
