@@ -56,15 +56,15 @@
     restore_point_in_time: "{{ azure_manage_postgresql_manage_postgresql_postgresql_restore_point_in_time | default(omit) }}"
     tags: "{{ azure_manage_postgresql_tags | default(omit) }}"
 
-- name: Update PostgreSQL Server configuration settings
-  azure.azcollection.azure_rm_postgresqlconfiguration:
-    resource_group: "{{ azure_manage_postgresql_resource_group }}"
-    server_name: "{{ azure_manage_postgresql_postgresql_name }}"
-    name: "{{ item.name }}"
-    value: "{{ item.value }}"
-  with_items: "{{ azure_manage_postgresql_postgresql_settings }}"
-  when:
-    - azure_postgresql_settings | length > 0
+#- name: Update PostgreSQL Server configuration settings
+#  azure.azcollection.azure_rm_postgresqlconfiguration:
+#    resource_group: "{{ azure_manage_postgresql_resource_group }}"
+#    server_name: "{{ azure_manage_postgresql_postgresql_name }}"
+#    name: "{{ item.name }}"
+#    value: "{{ item.value }}"
+#  with_items: "{{ azure_manage_postgresql_postgresql_settings }}"
+#  when:
+#    - azure_postgresql_settings | length > 0
 
 - name: Update PostgreSQL Server Firewall rules
   azure.azcollection.azure_rm_postgresqlfirewallrule:
