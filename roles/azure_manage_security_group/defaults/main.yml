@@ -1,3 +1,0 @@
----
-# defaults file for security_group
-azure_manage_security_group_operation: create
