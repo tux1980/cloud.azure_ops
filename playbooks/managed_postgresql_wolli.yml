@@ -4,7 +4,7 @@
        azure_manage_postgresql_operation: "create"
        azure_manage_postgresql_region: "eastus"
        azure_manage_postgresql_resource_group: "postgresql-rg"
-       azure_manage_postgresql_postgresql_backup_retention_days: 3
+       azure_manage_postgresql_postgresql_backup_retention_days: 7
        azure_manage_postgresql_postgresql_admin_username: postgresqladmin
        azure_manage_postgresql_postgresql_admin_password: redhat123!
        azure_manage_postgresql_resource_group: azure-demo
