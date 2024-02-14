@@ -1,15 +1,15 @@
 ---
-azure_vm_name: webapp-vm-
-azure_vm_user: ansible
-azure_vm_user_password: 4fB5In3ueO7,
-azure_vm_image:
-  offer: RHEL
-  publisher: RedHat
-  sku: 8-LVM
-  version: latest
-azure_vm_size: Standard_A1_v2
-azure_bastion_vm_size: Standard_A1_v2
-azure_number_vm: 3
+azure_vm_name: rhel93-01
+azure_vm_user: wmarx
+azure_vm_user_password: redhat123!
+#azure_vm_image:
+#  offer: RHEL
+#  publisher: RedHat
+#  sku: 8-LVM
+#  version: latest
+#azure_vm_size: Standard_A1_v2
+#azure_bastion_vm_size: Standard_A1_v2
+#azure_number_vm: 3
 
 # PostgreSQL Server variables
 azure_postgresql_name: "{{ azure_resource_group | replace('_', '-') }}-dbserver"
