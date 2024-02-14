@@ -1,6 +1,6 @@
 - hosts: localhost
   roles:
-     - role: cloud.azure_ops.azure_manage_postgresql
+     - role: roles/cloud.azure_ops.azure_manage_postgresql
        azure_manage_postgresql_operation: "create"
        azure_manage_postgresql_region: "eastus"
        azure_manage_postgresql_resource_group: "postgresql-rg"
