@@ -17,6 +17,7 @@
        azure_manage_postgresql_resource_group_tags:
           tag0: "tag0"
           tag1: "tag1"
+          tag2: "wollidb"
        azure_manage_postgresql_postgresql_settings:
           - name: deadlock_timeout
             value: 2000
