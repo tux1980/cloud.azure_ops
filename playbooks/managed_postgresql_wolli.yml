@@ -8,7 +8,7 @@
        azure_manage_postgresql_postgresql_admin_username: postgresqladmin
        azure_manage_postgresql_postgresql_admin_password: redhat123!
        azure_manage_postgresql_resource_group: azure-demo
-       azure_manage_postgresql_postgresql_storage_mb: 10240
+       azure_manage_postgresql_postgresql_storage_mb: 11264
        azure_manage_postgresql_postgresql_name: "dbpostgresqldemo"
        
        azure_manage_postgresql_postgresql_sku:
